@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		EC6883B128113C8500E581EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B028113C8500E581EB /* AppDelegate.swift */; };
 		EC6883B328113C8500E581EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B228113C8500E581EB /* SceneDelegate.swift */; };
-		EC6883B528113C8500E581EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B428113C8500E581EB /* ViewController.swift */; };
-		EC6883B828113C8500E581EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6883B628113C8500E581EB /* Main.storyboard */; };
+		EC6883B528113C8500E581EB /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B428113C8500E581EB /* AuthorizationViewController.swift */; };
 		EC6883BA28113C8600E581EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6883B928113C8600E581EB /* Assets.xcassets */; };
 		EC6883BD28113C8600E581EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6883BB28113C8600E581EB /* LaunchScreen.storyboard */; };
+		EC6883C928113DCB00E581EB /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883C828113DCB00E581EB /* UILabel.swift */; };
+		EC6883CB28118F1600E581EB /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883CA28118F1600E581EB /* UIButton.swift */; };
+		EC6883CD28119B7500E581EB /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883CC28119B7500E581EB /* UIStackView.swift */; };
+		ECCC4E552811C38900B9D53D /* SetupFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC4E542811C38900B9D53D /* SetupFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC6883AD28113C8500E581EB /* TheMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6883B028113C8500E581EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6883B228113C8500E581EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC6883B428113C8500E581EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC6883B728113C8500E581EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6883B428113C8500E581EB /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		EC6883B928113C8600E581EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6883BC28113C8600E581EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC6883BE28113C8600E581EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6883C828113DCB00E581EB /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		EC6883CA28118F1600E581EB /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		EC6883CC28119B7500E581EB /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		ECCC4E542811C38900B9D53D /* SetupFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,58 @@
 		EC6883AF28113C8500E581EB /* TheMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				EC6883C428113D3C00E581EB /* Application */,
+				EC6883C528113D4700E581EB /* Controllers */,
+				EC6883C728113DC000E581EB /* Extensions */,
+				EC6883C628113D5700E581EB /* Resources */,
+			);
+			path = TheMessenger;
+			sourceTree = "<group>";
+		};
+		EC6883C428113D3C00E581EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				EC6883B028113C8500E581EB /* AppDelegate.swift */,
 				EC6883B228113C8500E581EB /* SceneDelegate.swift */,
-				EC6883B428113C8500E581EB /* ViewController.swift */,
-				EC6883B628113C8500E581EB /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC6883C528113D4700E581EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC6883B428113C8500E581EB /* AuthorizationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EC6883C628113D5700E581EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				EC6883B928113C8600E581EB /* Assets.xcassets */,
 				EC6883BB28113C8600E581EB /* LaunchScreen.storyboard */,
 				EC6883BE28113C8600E581EB /* Info.plist */,
 			);
-			path = TheMessenger;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC6883C728113DC000E581EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC4E532811C36300B9D53D /* Font */,
+				EC6883C828113DCB00E581EB /* UILabel.swift */,
+				EC6883CA28118F1600E581EB /* UIButton.swift */,
+				EC6883CC28119B7500E581EB /* UIStackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECCC4E532811C36300B9D53D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC4E542811C38900B9D53D /* SetupFont.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +176,6 @@
 			files = (
 				EC6883BD28113C8600E581EB /* LaunchScreen.storyboard in Resources */,
 				EC6883BA28113C8600E581EB /* Assets.xcassets in Resources */,
-				EC6883B828113C8500E581EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6883B528113C8500E581EB /* ViewController.swift in Sources */,
+				EC6883CB28118F1600E581EB /* UIButton.swift in Sources */,
+				EC6883CD28119B7500E581EB /* UIStackView.swift in Sources */,
+				EC6883B528113C8500E581EB /* AuthorizationViewController.swift in Sources */,
 				EC6883B128113C8500E581EB /* AppDelegate.swift in Sources */,
+				EC6883C928113DCB00E581EB /* UILabel.swift in Sources */,
 				EC6883B328113C8500E581EB /* SceneDelegate.swift in Sources */,
+				ECCC4E552811C38900B9D53D /* SetupFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC6883B628113C8500E581EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC6883B728113C8500E581EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC6883BB28113C8600E581EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +333,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XH6VKLGZNV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TheMessenger/Info.plist;
+				INFOPLIST_FILE = TheMessenger/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,10 +361,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XH6VKLGZNV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TheMessenger/Info.plist;
+				INFOPLIST_FILE = TheMessenger/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +376,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
