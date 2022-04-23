@@ -26,8 +26,8 @@ class LoginInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupConstraints()
-        
         view.backgroundColor = .white
+        signUpGoogleButton.castomizeGoogleButton()
     }
 }
 

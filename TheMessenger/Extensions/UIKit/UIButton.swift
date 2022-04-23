@@ -30,4 +30,18 @@ extension UIButton {
             self.layer.borderColor = UIColor.black.cgColor
         }
     }
+    
+    func castomizeGoogleButton() {
+        let googleLogo = UIImageView(image: UIImage(named: "Google"))
+        googleLogo.translatesAutoresizingMaskIntoConstraints = false
+        
+        googleLogo.layer.shadowColor = UIColor.black.cgColor
+        googleLogo.layer.shadowOpacity = 0.2
+        googleLogo.layer.shadowRadius = 5
+        googleLogo.layer.shadowOffset = CGSize(width: 4, height: 4)
+        
+        self.addSubview(googleLogo)
+        googleLogo.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20).isActive = true
+        googleLogo.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+    }
 }

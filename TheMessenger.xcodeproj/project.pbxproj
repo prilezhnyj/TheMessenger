@@ -23,6 +23,8 @@
 		ECE8D1F22813EDF400ACE19D /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */; };
 		ECE8D1F42813EEAE00ACE19D /* Discription.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F32813EEAE00ACE19D /* Discription.swift */; };
 		ECE8D1F62813F90500ACE19D /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */; };
+		ECE8D1F82814612100ACE19D /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F72814612100ACE19D /* SetupProfileViewController.swift */; };
+		ECE8D1FA2814626100ACE19D /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F92814626100ACE19D /* AddPhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro.ttf"; path = "../../../../../../../../Library/Fonts/SF-Pro.ttf"; sourceTree = "<group>"; };
 		ECE8D1F32813EEAE00ACE19D /* Discription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discription.swift; sourceTree = "<group>"; };
 		ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
+		ECE8D1F72814612100ACE19D /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
+		ECE8D1F92814626100ACE19D /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				EC6883B428113C8500E581EB /* MainViewController.swift */,
 				EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */,
 				ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */,
+				ECE8D1F72814612100ACE19D /* SetupProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				ECB08E1828131AC800C262FB /* CustomForTextFieldView.swift */,
+				ECE8D1F92814626100ACE19D /* AddPhotoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,8 +258,10 @@
 				EC6883CB28118F1600E581EB /* UIButton.swift in Sources */,
 				EC6883CD28119B7500E581EB /* UIStackView.swift in Sources */,
 				EC6883B528113C8500E581EB /* MainViewController.swift in Sources */,
+				ECE8D1F82814612100ACE19D /* SetupProfileViewController.swift in Sources */,
 				EC6883B128113C8500E581EB /* AppDelegate.swift in Sources */,
 				ECE8D1F42813EEAE00ACE19D /* Discription.swift in Sources */,
+				ECE8D1FA2814626100ACE19D /* AddPhotoView.swift in Sources */,
 				ECB08E1928131AC800C262FB /* CustomForTextFieldView.swift in Sources */,
 				EC96CABA281292B8006FC6F0 /* SignUpViewController.swift in Sources */,
 				EC96CAC12812AA75006FC6F0 /* SetupColor.swift in Sources */,
