@@ -18,10 +18,11 @@
 		EC96CABA281292B8006FC6F0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */; };
 		EC96CABE28129ACA006FC6F0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96CABD28129ACA006FC6F0 /* CustomTextField.swift */; };
 		EC96CAC12812AA75006FC6F0 /* SetupColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96CAC02812AA75006FC6F0 /* SetupColor.swift */; };
-		ECB08E1928131AC800C262FB /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB08E1828131AC800C262FB /* MailView.swift */; };
+		ECB08E1928131AC800C262FB /* CustomForTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB08E1828131AC800C262FB /* CustomForTextFieldView.swift */; };
 		ECCC4E552811C38900B9D53D /* SetupFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC4E542811C38900B9D53D /* SetupFont.swift */; };
 		ECE8D1F22813EDF400ACE19D /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */; };
 		ECE8D1F42813EEAE00ACE19D /* Discription.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F32813EEAE00ACE19D /* Discription.swift */; };
+		ECE8D1F62813F90500ACE19D /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +39,11 @@
 		EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EC96CABD28129ACA006FC6F0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		EC96CAC02812AA75006FC6F0 /* SetupColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupColor.swift; sourceTree = "<group>"; };
-		ECB08E1828131AC800C262FB /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		ECB08E1828131AC800C262FB /* CustomForTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomForTextFieldView.swift; sourceTree = "<group>"; };
 		ECCC4E542811C38900B9D53D /* SetupFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupFont.swift; sourceTree = "<group>"; };
 		ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro.ttf"; path = "../../../../../../../../Library/Fonts/SF-Pro.ttf"; sourceTree = "<group>"; };
 		ECE8D1F32813EEAE00ACE19D /* Discription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discription.swift; sourceTree = "<group>"; };
+		ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				EC6883B428113C8500E581EB /* MainViewController.swift */,
 				EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */,
+				ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,7 +155,7 @@
 		ECB08E1728131A7300C262FB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ECB08E1828131AC800C262FB /* MailView.swift */,
+				ECB08E1828131AC800C262FB /* CustomForTextFieldView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -245,12 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE8D1F62813F90500ACE19D /* LoginInViewController.swift in Sources */,
 				EC6883CB28118F1600E581EB /* UIButton.swift in Sources */,
 				EC6883CD28119B7500E581EB /* UIStackView.swift in Sources */,
 				EC6883B528113C8500E581EB /* MainViewController.swift in Sources */,
 				EC6883B128113C8500E581EB /* AppDelegate.swift in Sources */,
 				ECE8D1F42813EEAE00ACE19D /* Discription.swift in Sources */,
-				ECB08E1928131AC800C262FB /* MailView.swift in Sources */,
+				ECB08E1928131AC800C262FB /* CustomForTextFieldView.swift in Sources */,
 				EC96CABA281292B8006FC6F0 /* SignUpViewController.swift in Sources */,
 				EC96CAC12812AA75006FC6F0 /* SetupColor.swift in Sources */,
 				EC6883C928113DCB00E581EB /* UILabel.swift in Sources */,

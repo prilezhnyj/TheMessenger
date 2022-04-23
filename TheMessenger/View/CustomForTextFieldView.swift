@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MailView: UIView {
+class CustomForTextFieldView: UIView {
     
     init(label: UILabel, textField: UITextField) {
         super.init(frame: .zero)
