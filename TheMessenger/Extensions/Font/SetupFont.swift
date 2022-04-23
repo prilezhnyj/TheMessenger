@@ -8,11 +8,11 @@
 import UIKit
 
 class SetupFont {
-    static func avenirHeavy(sizeFont: CGFloat) -> UIFont {
-        return UIFont(name: "Avenir-Heavy", size: sizeFont)!
+    static func sfProBold(sizeFont: CGFloat) -> UIFont {
+        return UIFont(name: "SFPro-Bold", size: sizeFont)!
     }
     
-    static func avenirRoman(sizeFont: CGFloat) -> UIFont {
-        return UIFont(name: "Avenir-Roman", size: sizeFont)!
+    static func sfProRegular(sizeFont: CGFloat) -> UIFont {
+        return UIFont(name: "SFPro-Regular", size: sizeFont)!
     }
 }

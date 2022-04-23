@@ -1,0 +1,10 @@
+//
+//  Discription.swift
+//  TheMessenger
+//
+//  Created by Максим Боталов on 23.04.2022.
+//
+
+import Foundation
+
+let discription = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, frinbibendum sodales, augue velit cursus nunc."

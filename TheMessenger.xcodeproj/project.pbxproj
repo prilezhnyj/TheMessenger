@@ -9,27 +9,39 @@
 /* Begin PBXBuildFile section */
 		EC6883B128113C8500E581EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B028113C8500E581EB /* AppDelegate.swift */; };
 		EC6883B328113C8500E581EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B228113C8500E581EB /* SceneDelegate.swift */; };
-		EC6883B528113C8500E581EB /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B428113C8500E581EB /* AuthorizationViewController.swift */; };
+		EC6883B528113C8500E581EB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883B428113C8500E581EB /* MainViewController.swift */; };
 		EC6883BA28113C8600E581EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6883B928113C8600E581EB /* Assets.xcassets */; };
 		EC6883BD28113C8600E581EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6883BB28113C8600E581EB /* LaunchScreen.storyboard */; };
 		EC6883C928113DCB00E581EB /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883C828113DCB00E581EB /* UILabel.swift */; };
 		EC6883CB28118F1600E581EB /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883CA28118F1600E581EB /* UIButton.swift */; };
 		EC6883CD28119B7500E581EB /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6883CC28119B7500E581EB /* UIStackView.swift */; };
+		EC96CABA281292B8006FC6F0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */; };
+		EC96CABE28129ACA006FC6F0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96CABD28129ACA006FC6F0 /* CustomTextField.swift */; };
+		EC96CAC12812AA75006FC6F0 /* SetupColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96CAC02812AA75006FC6F0 /* SetupColor.swift */; };
+		ECB08E1928131AC800C262FB /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB08E1828131AC800C262FB /* MailView.swift */; };
 		ECCC4E552811C38900B9D53D /* SetupFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC4E542811C38900B9D53D /* SetupFont.swift */; };
+		ECE8D1F22813EDF400ACE19D /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */; };
+		ECE8D1F42813EEAE00ACE19D /* Discription.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F32813EEAE00ACE19D /* Discription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC6883AD28113C8500E581EB /* TheMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6883B028113C8500E581EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6883B228113C8500E581EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC6883B428113C8500E581EB /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		EC6883B428113C8500E581EB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EC6883B928113C8600E581EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6883BC28113C8600E581EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC6883BE28113C8600E581EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6883C828113DCB00E581EB /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		EC6883CA28118F1600E581EB /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		EC6883CC28119B7500E581EB /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EC96CABD28129ACA006FC6F0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EC96CAC02812AA75006FC6F0 /* SetupColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupColor.swift; sourceTree = "<group>"; };
+		ECB08E1828131AC800C262FB /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		ECCC4E542811C38900B9D53D /* SetupFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupFont.swift; sourceTree = "<group>"; };
+		ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro.ttf"; path = "../../../../../../../../Library/Fonts/SF-Pro.ttf"; sourceTree = "<group>"; };
+		ECE8D1F32813EEAE00ACE19D /* Discription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				EC6883C428113D3C00E581EB /* Application */,
+				ECB08E1728131A7300C262FB /* View */,
 				EC6883C528113D4700E581EB /* Controllers */,
 				EC6883C728113DC000E581EB /* Extensions */,
 				EC6883C628113D5700E581EB /* Resources */,
@@ -82,7 +95,8 @@
 		EC6883C528113D4700E581EB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EC6883B428113C8500E581EB /* AuthorizationViewController.swift */,
+				EC6883B428113C8500E581EB /* MainViewController.swift */,
+				EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -90,6 +104,7 @@
 		EC6883C628113D5700E581EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ECE8D1F32813EEAE00ACE19D /* Discription.swift */,
 				EC6883B928113C8600E581EB /* Assets.xcassets */,
 				EC6883BB28113C8600E581EB /* LaunchScreen.storyboard */,
 				EC6883BE28113C8600E581EB /* Info.plist */,
@@ -100,20 +115,63 @@
 		EC6883C728113DC000E581EB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EC96CABF2812AA66006FC6F0 /* Color */,
+				EC96CABB28129826006FC6F0 /* UIKit */,
 				ECCC4E532811C36300B9D53D /* Font */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC96CABB28129826006FC6F0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EC96CABC28129830006FC6F0 /* Custom */,
 				EC6883C828113DCB00E581EB /* UILabel.swift */,
 				EC6883CA28118F1600E581EB /* UIButton.swift */,
 				EC6883CC28119B7500E581EB /* UIStackView.swift */,
 			);
-			path = Extensions;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EC96CABC28129830006FC6F0 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EC96CABD28129ACA006FC6F0 /* CustomTextField.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EC96CABF2812AA66006FC6F0 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				EC96CAC02812AA75006FC6F0 /* SetupColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		ECB08E1728131A7300C262FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECB08E1828131AC800C262FB /* MailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		ECCC4E532811C36300B9D53D /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				ECE8D1F02813ED8400ACE19D /* FontFile */,
 				ECCC4E542811C38900B9D53D /* SetupFont.swift */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		ECE8D1F02813ED8400ACE19D /* FontFile */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */,
+			);
+			path = FontFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6883BD28113C8600E581EB /* LaunchScreen.storyboard in Resources */,
+				ECE8D1F22813EDF400ACE19D /* SF-Pro.ttf in Resources */,
 				EC6883BA28113C8600E581EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,11 +247,16 @@
 			files = (
 				EC6883CB28118F1600E581EB /* UIButton.swift in Sources */,
 				EC6883CD28119B7500E581EB /* UIStackView.swift in Sources */,
-				EC6883B528113C8500E581EB /* AuthorizationViewController.swift in Sources */,
+				EC6883B528113C8500E581EB /* MainViewController.swift in Sources */,
 				EC6883B128113C8500E581EB /* AppDelegate.swift in Sources */,
+				ECE8D1F42813EEAE00ACE19D /* Discription.swift in Sources */,
+				ECB08E1928131AC800C262FB /* MailView.swift in Sources */,
+				EC96CABA281292B8006FC6F0 /* SignUpViewController.swift in Sources */,
+				EC96CAC12812AA75006FC6F0 /* SetupColor.swift in Sources */,
 				EC6883C928113DCB00E581EB /* UILabel.swift in Sources */,
 				EC6883B328113C8500E581EB /* SceneDelegate.swift in Sources */,
 				ECCC4E552811C38900B9D53D /* SetupFont.swift in Sources */,
+				EC96CABE28129ACA006FC6F0 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

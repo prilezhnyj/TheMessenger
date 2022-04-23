@@ -16,16 +16,17 @@ extension UIButton {
         self.backgroundColor = backgroundColor
         self.layer.cornerRadius = cornerRadius
         self.translatesAutoresizingMaskIntoConstraints = false
+        self.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         if isShadow == true {
             self.layer.shadowColor = UIColor.black.cgColor
             self.layer.shadowOpacity = 0.2
-            self.layer.shadowRadius = 4
+            self.layer.shadowRadius = 5
             self.layer.shadowOffset = CGSize(width: 4, height: 4)
         }
         
         if isBorder == true {
-            self.layer.borderWidth = 2
+            self.layer.borderWidth = 0.5
             self.layer.borderColor = UIColor.black.cgColor
         }
     }
