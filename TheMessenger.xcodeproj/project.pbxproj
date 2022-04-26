@@ -25,6 +25,9 @@
 		ECE8D1F62813F90500ACE19D /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */; };
 		ECE8D1F82814612100ACE19D /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F72814612100ACE19D /* SetupProfileViewController.swift */; };
 		ECE8D1FA2814626100ACE19D /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D1F92814626100ACE19D /* AddPhotoView.swift */; };
+		ECEF4A4B2816841000143D0C /* SetupTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF4A4A2816841000143D0C /* SetupTabBarViewController.swift */; };
+		ECEF4A4F2816856000143D0C /* FrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF4A4E2816856000143D0C /* FrendsViewController.swift */; };
+		ECEF4A512816858E00143D0C /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF4A502816858E00143D0C /* ChatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
 		ECE8D1F72814612100ACE19D /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		ECE8D1F92814626100ACE19D /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		ECEF4A4A2816841000143D0C /* SetupTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTabBarViewController.swift; sourceTree = "<group>"; };
+		ECEF4A4E2816856000143D0C /* FrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendsViewController.swift; sourceTree = "<group>"; };
+		ECEF4A502816858E00143D0C /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,10 @@
 		EC6883C528113D4700E581EB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EC6883B428113C8500E581EB /* MainViewController.swift */,
-				EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */,
-				ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */,
-				ECE8D1F72814612100ACE19D /* SetupProfileViewController.swift */,
+				ECEF4A4A2816841000143D0C /* SetupTabBarViewController.swift */,
+				ECEF4A4C281684F100143D0C /* Authorization */,
+				ECEF4A4E2816856000143D0C /* FrendsViewController.swift */,
+				ECEF4A502816858E00143D0C /* ChatsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +187,17 @@
 				ECE8D1F12813EDF400ACE19D /* SF-Pro.ttf */,
 			);
 			path = FontFile;
+			sourceTree = "<group>";
+		};
+		ECEF4A4C281684F100143D0C /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				EC6883B428113C8500E581EB /* MainViewController.swift */,
+				EC96CAB9281292B8006FC6F0 /* SignUpViewController.swift */,
+				ECE8D1F52813F90500ACE19D /* LoginInViewController.swift */,
+				ECE8D1F72814612100ACE19D /* SetupProfileViewController.swift */,
+			);
+			path = Authorization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,14 +277,17 @@
 				EC6883B528113C8500E581EB /* MainViewController.swift in Sources */,
 				ECE8D1F82814612100ACE19D /* SetupProfileViewController.swift in Sources */,
 				EC6883B128113C8500E581EB /* AppDelegate.swift in Sources */,
+				ECEF4A4B2816841000143D0C /* SetupTabBarViewController.swift in Sources */,
 				ECE8D1F42813EEAE00ACE19D /* Discription.swift in Sources */,
 				ECE8D1FA2814626100ACE19D /* AddPhotoView.swift in Sources */,
 				ECB08E1928131AC800C262FB /* CustomForTextFieldView.swift in Sources */,
 				EC96CABA281292B8006FC6F0 /* SignUpViewController.swift in Sources */,
 				EC96CAC12812AA75006FC6F0 /* SetupColor.swift in Sources */,
 				EC6883C928113DCB00E581EB /* UILabel.swift in Sources */,
+				ECEF4A4F2816856000143D0C /* FrendsViewController.swift in Sources */,
 				EC6883B328113C8500E581EB /* SceneDelegate.swift in Sources */,
 				ECCC4E552811C38900B9D53D /* SetupFont.swift in Sources */,
+				ECEF4A512816858E00143D0C /* ChatsViewController.swift in Sources */,
 				EC96CABE28129ACA006FC6F0 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
